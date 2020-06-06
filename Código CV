@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+
+    <style>
+            body{
+            margin:0
+        }
+        div {
+            background-color:aliceblue;
+            border-style: solid;
+            border-width: 2px;
+            border-color:CornflowerBlue;
+            padding: 3px;
+            }
+            
+        div#div1{
+                    margin:20px;
+                    float:left;
+                    width:35%;
+                }
+        div#div2{
+                 margin:20px;
+                 float:right;
+                 width:45%;
+                }
+                
+        h1 {
+        text-align:center;
+        font-family: "Times New Roman";
+        }
+        h3 {
+        text-align:center;
+        font-family: "Times New Roman";
+        font-size:130%;
+        }
+        p {
+        font-family: "Arial Narrow";
+        }
+        .img1 {
+         margin: 5px;
+         float: left;
+        }        
+
+ </style>
+</head>
+<body  style="background-color:GhostWhite;">
+    <header>
+    <div style = float:center;>
+        <img class="img1" src="https://www.pinclipart.com/picdir/big/105-1057269_author-avatar-woman-doctor-icon-png-clipart.png" style="width:100px;">
+        <h1> Rafaela Maciel Muniz </h1>
+        <h3> Desenvolvedor de Sistemas </h3>  
+    </div>
+        </header>
+        
+    <div id="div1" style = float:left;>
+    <h5 style = "text-align:center;font-size:105%;"> Objetivos </h5>
+    <h5 style = "text-align:center;font-size:105%;"> SoftSkills</h5>
+    <h5 style = "text-align:center;font-size:105%;"> HardSkills</h5>
+    </div>
+
+    <div id="div2">
+    <h5 style = "text-align:center;font-size:105%;"> Objetivos</h5>
+    <p> Atuar como WebDesigner vai ampliar mais os meus conhecimentos, desenvolvimentos profissional e de vida </p>
+    </div>
+
+    <div id="div2">
+    <h5 style = "text-align:center;font-size:105%;"> SoftSkills </h5>
+    <p> Busco uma vaga no mercado de trabalho, numa empresa onde eu possa colaborar para o crescimento da organização e do grupo. Aprendo rápido e sou resonsável. </p>
+    </div>
+    
+    <div id="div2">
+    <h5 style = "text-align:center;font-size:105%;"> HardSkills </h5>
+    <p> - HTML 5 </p>
+    <p> - C# </p>
+    </div>
+    
+
+</body>
+</html>
